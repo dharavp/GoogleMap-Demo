@@ -12,10 +12,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-/**
- * Created by anupamchugh on 27/11/15.
- */
-
 public class DirectionsJSONParser {
 
     /**
@@ -80,10 +76,6 @@ public class DirectionsJSONParser {
         return routes;
     }
 
-    /**
-     * Method to decode polyline points
-     * Courtesy : http://jeffreysambells.com/2010/05/27/decoding-polylines-from-google-maps-direction-api-with-java
-     */
     private List decodePoly(String encoded) {
 
         List poly = new ArrayList();
